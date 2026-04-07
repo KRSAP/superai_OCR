@@ -17,7 +17,7 @@ def load_config() -> dict:
         "max_retries": 3,
         "data_dir": str(base_data_dir),
         "image_dir": str(base_data_dir / "images"),
-        "output_dir": "./dist",
+        "output_dir": "./output",
         "template_file": "submission_template.csv",
         "progress_file": "progress.json",
         "output_file": "submission.csv",
